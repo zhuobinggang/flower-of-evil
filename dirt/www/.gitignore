@@ -1,0 +1,12 @@
+node_modules
+audio
+fonts
+icon
+*\.png
+!*Taku*\.png
+img/tilesets/*\.txt
+movies
+js/plugins
+js/libs/dragonbones
+build
+save
