@@ -7,7 +7,7 @@ null,
 {"id":5,"animationId":6,"description":"普通的木剑","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":97,"name":"木剑","note":"","params":[0,0,3,0,0,0,0,0],"price":10,"wtypeId":2},
 {"id":6,"animationId":1,"description":"哥布林们自己做的武器。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":110,"name":"骨棒","note":"","params":[0,0,5,0,0,0,0,0],"price":16,"wtypeId":2},
 {"id":7,"animationId":0,"description":"染上僵尸毒素的骨棒。哥布林专用武器。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":32,"dataId":4,"value":1}],"iconIndex":97,"name":"哥布林涂毒骨棒","note":"","params":[0,0,4,0,0,0,0,0],"price":50,"wtypeId":13},
-{"id":8,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+{"id":8,"animationId":11,"description":"你爱用的匕首。由于沾上血污变钝了，价值也变低了不少。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":96,"name":"染血的匕首","note":"","params":[0,0,6,0,0,0,1,0],"price":10,"wtypeId":1},
 {"id":9,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":10,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0}
 ]
