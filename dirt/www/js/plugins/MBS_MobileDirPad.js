@@ -260,12 +260,15 @@ MBS.MobileDirPad = {};
 	};
 
 	Sprite_Button.prototype.updateTouch = function() {
-		if (this._type == 0 && TouchInput.isTriggered()) {
+		var touchedButton = false;
+		var touchedAny = TouchInput.isTriggered();
+		if (this._type == 0 && touchedAny) {
 			var rect = new PIXI.Rectangle(this.x - this.width * this.anchor.x, this.y - this.height * this.anchor.y, this.width, this.height);
 			var touchMe = rect.contains(TouchInput.x, TouchInput.y);
 			Input._currentState['ok'] = touchMe;
 			if(touchMe){
-				console.log('touch 0')
+				//console.log('touch 0')
+				touchedButton = true;
 			}
 		} else if (this._type == 0) {
 			Input._currentState['ok'] = false;
@@ -275,7 +278,8 @@ MBS.MobileDirPad = {};
 			var touchMe = rect.contains(TouchInput.x, TouchInput.y);
 			Input._currentState['escape'] = touchMe;
 			if(touchMe){
-				console.log('touch 1')
+				//console.log('touch 1')
+				touchedButton = true;
 			}
 		} else if (this._type == 1) {
 			Input._currentState['escape'] = false;
@@ -412,9 +416,6 @@ MBS.MobileDirPad = {};
 	// TODO: 如果点到图片，不要触发地图
 	Scene_Map.prototype.processMapTouch = function() {
 		// if (!(this.isMobileDevice() && Scene_Base.dirpad)) Scene_Map_processMapTouch.apply(this, arguments);
-		if (TouchInput.isTriggered()){
-			console.log('???????????')
-		}
 		Scene_Map_processMapTouch.apply(this, arguments);
 	};
 
