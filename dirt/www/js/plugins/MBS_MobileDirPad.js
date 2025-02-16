@@ -60,11 +60,11 @@
 
  @param ActionButton Position
  @desc The ActionButton image position on screen (on format x; y)
- @default 688; 452
+ @default 688; 522
 
  @param CancelButton Position
  @desc The ActionButton image position on screen (on format x; y)
- @default 752; 516
+ @default 752; 586
 
  @param Opacity
  @desc The opacity used on the DPad and Action Button
@@ -106,9 +106,11 @@ MBS.MobileDirPad = {};
 	$.Param.cButton = $.Parameters["CancelButton Image"];
 
 	var dposition = $.Parameters["DPad Position"].split(";");
+	
 	$.Param.dpadPosition = new PIXI.Point(Number(dposition[0]), Number(dposition[1]));
 
 	var bposition = $.Parameters["ActionButton Position"].split(";");
+	
 	$.Param.buttonPosition = new PIXI.Point(Number(bposition[0]), Number(bposition[1]));
 
 	var cposition = $.Parameters["CancelButton Position"].split(";");
@@ -158,7 +160,7 @@ MBS.MobileDirPad = {};
 	Sprite_DirPad.prototype.update = function() {
 		Sprite_Base.prototype.update.call(this);
 		if (!this.visible) return;
-		this.updateMovement();
+		// this.updateMovement();
 		this.updateTouch();
 	};
 
@@ -179,6 +181,7 @@ MBS.MobileDirPad = {};
 
 		var s = $.Param.size;
 
+		// NOTE: 判断点击逻辑
 		if (TouchInput.isPressed()) {
 			var sx = this.x - this.width * this.anchor.x;
 			var sy = this.y - this.height * this.anchor.y;
@@ -245,7 +248,7 @@ MBS.MobileDirPad = {};
 	Sprite_Button.prototype.update = function() {
 		Sprite_Base.prototype.update.call(this);
 		if (!this.visible) return;
-		this.updateMovement();
+		// this.updateMovement();
 		this.updateTouch();
 	};
 
@@ -257,16 +260,26 @@ MBS.MobileDirPad = {};
 	};
 
 	Sprite_Button.prototype.updateTouch = function() {
-		if (this._type == 0 && TouchInput.isPressed()) {
+		if (this._type == 0 && TouchInput.isTriggered()) {
 			var rect = new PIXI.Rectangle(this.x - this.width * this.anchor.x, this.y - this.height * this.anchor.y, this.width, this.height);
-			Input._currentState['ok'] = rect.contains(TouchInput.x, TouchInput.y);
+			var touchMe = rect.contains(TouchInput.x, TouchInput.y);
+			Input._currentState['ok'] = touchMe;
+			if(touchMe){
+				console.log('touch 0')
+			}
 		} else if (this._type == 0) {
 			Input._currentState['ok'] = false;
+			// console.log('ok')
 		} else if (this._type == 1 && TouchInput.isTriggered()) {
 			var rect = new PIXI.Rectangle(this.x - this.width * this.anchor.x, this.y - this.height * this.anchor.y, this.width, this.height);
-			Input._currentState['escape'] = rect.contains(TouchInput.x, TouchInput.y);
+			var touchMe = rect.contains(TouchInput.x, TouchInput.y);
+			Input._currentState['escape'] = touchMe;
+			if(touchMe){
+				console.log('touch 1')
+			}
 		} else if (this._type == 1) {
 			Input._currentState['escape'] = false;
+			// console.log('逃跑')
 		}
 	};
 
@@ -396,8 +409,13 @@ MBS.MobileDirPad = {};
 		Scene_Map_terminate.apply(this, arguments);
 	};
 
+	// TODO: 如果点到图片，不要触发地图
 	Scene_Map.prototype.processMapTouch = function() {
-		if (!(this.isMobileDevice() && Scene_Base.dirpad)) Scene_Map_processMapTouch.apply(this, arguments);
+		// if (!(this.isMobileDevice() && Scene_Base.dirpad)) Scene_Map_processMapTouch.apply(this, arguments);
+		if (TouchInput.isTriggered()){
+			console.log('???????????')
+		}
+		Scene_Map_processMapTouch.apply(this, arguments);
 	};
 
 	//-----------------------------------------------------------------------------
