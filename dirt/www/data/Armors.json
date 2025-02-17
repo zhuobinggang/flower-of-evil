@@ -8,6 +8,6 @@ null,
 {"id":6,"atypeId":1,"description":"用秽土做的戒指。每回合自动恢复1%生命。","etypeId":5,"traits":[{"code":22,"dataId":7,"value":0.01}],"iconIndex":145,"name":"秽土戒指","note":"","params":[0,0,0,0,0,0,0,0],"price":20},
 {"id":7,"atypeId":1,"description":"用秽土做的戒指。每回合自动恢复2%生命。","etypeId":5,"traits":[{"code":22,"dataId":7,"value":0.02}],"iconIndex":145,"name":"秽土戒指+1","note":"","params":[0,0,0,0,0,0,0,1],"price":30},
 {"id":8,"atypeId":5,"description":"哥布林自己做的骨头盾牌。","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":128,"name":"骨盾","note":"","params":[0,0,0,3,0,0,0,0],"price":30},
-{"id":9,"atypeId":7,"description":"投掷骰子。1-3倒吊人，4-5战车，或是死神？哥布林专用。","etypeId":2,"traits":[{"code":43,"dataId":12,"value":1}],"iconIndex":1,"name":"命运之轮","note":"","params":[0,0,0,3,0,0,0,0],"price":100},
+{"id":9,"atypeId":7,"description":"投掷骰子。1-3倒吊人，4-5战车，或是死神？\n哥布林专用。","etypeId":2,"traits":[{"code":43,"dataId":12,"value":1}],"iconIndex":1,"name":"命运之轮","note":"","params":[0,0,0,3,0,0,0,1],"price":100},
 {"id":10,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
 ]
