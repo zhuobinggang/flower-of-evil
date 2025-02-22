@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":2,"value":1},{"code":51,"dataId":1,"value":1}],"initialLevel":1,"maxLevel":99,"name":"你","nickname":"","note":"","profile":"失去记忆的生活在王国边境的少年。"},
+{"id":1,"battlerName":"Taku_me_actor","characterIndex":0,"characterName":"$Taku_me","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[{"code":51,"dataId":2,"value":1},{"code":51,"dataId":1,"value":1}],"initialLevel":1,"maxLevel":99,"name":"你","nickname":"","note":"","profile":"失去记忆的生活在王国边境的少年。"},
 {"id":2,"battlerName":"Taku_goblin_actor","characterIndex":2,"characterName":"Monster","classId":5,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Taku_hero2","traits":[],"initialLevel":1,"maxLevel":99,"name":"哥布林跟班","nickname":"","note":"","profile":"从巢穴带出来的哥布林跟班。"},
 {"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
