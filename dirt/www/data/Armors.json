@@ -11,8 +11,13 @@ null,
 {"id":9,"atypeId":7,"description":"投掷骰子。1-3倒吊人，4-5战车，或是死神？\n哥布林专用。","etypeId":2,"traits":[{"code":43,"dataId":12,"value":1}],"iconIndex":1,"name":"命运之轮","note":"","params":[0,0,0,3,0,0,0,1],"price":100},
 {"id":10,"atypeId":1,"description":"用史莱姆尸体做的帽子。增加2点防御。","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":130,"name":"史莱姆快乐帽","note":"","params":[0,0,0,2,0,0,0,0],"price":16},
 {"id":11,"atypeId":1,"description":"用史莱姆尸体做的盾牌。增加50点生命值。\n但是会导致防御降低5点！","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":129,"name":"史莱姆快乐盾","note":"","params":[50,0,0,-5,0,0,0,0],"price":16},
-{"id":12,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
-{"id":13,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
-{"id":14,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
-{"id":15,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
+{"id":12,"atypeId":5,"description":"骷髅掉落的盾牌。增加5点各种防御。","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":128,"name":"骸骨盾","note":"","params":[0,0,0,5,0,5,0,0],"price":30},
+{"id":13,"atypeId":1,"description":"增加防御3点。免疫中毒。\n无法取下。","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0},{"code":53,"dataId":3,"value":1},{"code":14,"dataId":4,"value":1}],"iconIndex":16,"name":"瘟疫医生","note":"","params":[0,0,0,3,0,3,0,0],"price":100},
+{"id":14,"atypeId":1,"description":"穿起来感觉大腿有点凉。","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0},{"code":11,"dataId":2,"value":0.5}],"iconIndex":154,"name":"耐热服","note":"","params":[0,0,0,3,0,3,0,0],"price":0},
+{"id":15,"atypeId":1,"description":"大幅增加防御力。","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":138,"name":"贝西摩斯的加护","note":"","params":[0,0,0,10,0,10,0,0],"price":1000},
+{"id":16,"atypeId":1,"description":"冒险者夹克，很帅。\n增加6点物理防御。","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":138,"name":"冒险者披风","note":"","params":[0,0,0,5,0,0,0,0],"price":10},
+{"id":17,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":18,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":19,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":20,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
 ]
