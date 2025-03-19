@@ -23,6 +23,6 @@ null,
 {"id":21,"animationId":7,"description":"风精灵祝福的武器。增加一点风抗性。","etypeId":1,"traits":[{"code":31,"dataId":7,"value":0},{"code":22,"dataId":0,"value":0},{"code":11,"dataId":7,"value":0.8}],"iconIndex":69,"name":"风之翼","note":"","params":[0,0,6,0,0,0,2,0],"price":100,"wtypeId":2},
 {"id":22,"animationId":0,"description":"增加物理和魔法攻击各3点。\n装备后可以使用技能：缩小光线。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":43,"dataId":42,"value":1}],"iconIndex":104,"name":"缩小枪","note":"","params":[0,0,3,0,3,0,0,0],"price":500,"wtypeId":9},
 {"id":23,"animationId":0,"description":"增加物理和魔法攻击各3点。\n装备后可以使用技能：禁锢光线。","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0},{"code":43,"dataId":44,"value":1}],"iconIndex":104,"name":"禁锢枪","note":"","params":[0,0,3,0,3,0,0,0],"price":500,"wtypeId":9},
-{"id":24,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+{"id":24,"animationId":0,"description":"来吧，装上它，证明你的实力。\n（不会对结局有影响）","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":1,"name":"开挂的证明","note":"","params":[-100,-100,-100,-100,-100,-100,-100,-100],"price":500,"wtypeId":2},
 {"id":25,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0}
 ]
